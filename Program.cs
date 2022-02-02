@@ -1,5 +1,5 @@
 ﻿// Даны два числа. Показать большее и меньшее число (Two numbers are given. Show larger and smaller numbers)
-int numberA = 8;
+int numberA = 4;
 int numberB = 5;
 int max;
 int min;
