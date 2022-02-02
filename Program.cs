@@ -1,19 +1,12 @@
-﻿// Даны два числа. Показать большее и меньшее число (Two numbers are given. Show larger and smaller numbers)
-int numberA = 4;
-int numberB = 5;
-int max;
-int min;
- if (numberA > numberB)
- {
- max = numberA;
- min = numberB;
- }
-  else
-  {
-  max = numberB;
-  min = numberA;
-  }
+﻿// Найти максимальное из трёх чисел (Find the maximum of three numbers)
+int A = 3;
+int B = 7;
+int C = 15;
+int max = A;
 {
-Console.WriteLine("max = " + max);
-Console.WriteLine("min =" + min);
+if (A >= max) max = A;
+if (B >= max) max = B;
+if (C >= max) max = C;
 }
+Console.Write (" max = ");
+Console.WriteLine( max );
