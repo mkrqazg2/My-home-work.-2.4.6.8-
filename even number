@@ -1,4 +1,4 @@
-﻿//  Выяснить является ли число чётным (Find out if the number is even)
+//  Выяснить является ли число чётным (Find out if the number is even)
 int n;
 Console.WriteLine("Введите число: ");
 n = int.Parse(Console.ReadLine());
