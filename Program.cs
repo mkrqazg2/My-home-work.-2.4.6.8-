@@ -1,12 +1,10 @@
-﻿//  Выяснить является ли число чётным (Find out if the number is even)
-int n;
-Console.WriteLine("Введите число: ");
-n = int.Parse(Console.ReadLine());
- if (n % 2 == 0)
- {
-    Console.WriteLine("чётное");
- }
-    else
- {
-     Console.WriteLine("нечётное");
- }
+﻿//  Показать чётные числа от 1 до N (Show even numbers from 1 to N)
+Console.WriteLine ("введите макимальное число:");
+int min = 2;
+int max ;
+max = int.Parse(Console.ReadLine());
+while ( min <= max)
+{
+    Console.Write (min + ",");
+    min = min + 2;
+}
